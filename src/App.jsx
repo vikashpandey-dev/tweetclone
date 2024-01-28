@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import "./index.css"
-import Main from './Compponents/Main'
+import React from 'react'
+import Main from './component/Main'
+import "./App.css"
 function App() {
   return (
-   <div>
-   <Main/>
-   </div>
+    <div className='w-full'>
+      <Main/>
+    </div>
   )
 }
 

@@ -1,53 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1{
+    font-family: "Playfair Display", Georgia, serif;
 }
 body{
-    background: #ffff;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+.textrgba{
+    color:rgba(0, 0, 0, 0.7);
+}
+.textp{
+    color: #999999;
+}
+.shadowsss{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.textblue{
+    color: #2c98f0;
+}
+.bgblue{
+    
+    background:#2c98f0 ;
+}
+.textred{
+    color: #ec5453;
+}
+.bgred{
+    background:#ec5453;
+}
+.textyellow{
+    color: #f9bf3f;
+}
+.bgyellow{
+    background: #f9bf3f;
+}
+.textbri{
+    color: #a84cb8;
+}
+.bgbri{
+    background: #a84cb8;
+}
+.tophex{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 30.6px solid red;
+}
+.bottomhex{
+    rotate: 180deg;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 30.6px solid red;
+}
+.centerhex{
+width: 120px;
+height: 60px;
 
-}
-.sethover:hover{
-background: #eff3f4;
-}
-.bgf7f9f9{
-    background: #eff3f4;
-}
-.bge5e4e1{
-    background: #e5e4e1;
-}
-.sethover:hover{
-    background: #e5e4e1;
-
-}
-.lefttext{
-    color: rgb(15, 20, 25);
-}
-.lefthover:hover{
-    background: rgba(247,249,249,1.00);
-}
-.backgroundright{
-    background: rgba(247,249,249,1.00);
-}
-.textcolor{
-    color: rgb(83, 100, 113);
-}
-.textrgbe{
-    color: rgb(15, 20, 25);
-
-}
-.hoverbg:hover{
-    background-color: rgba(15,20,25,0.1);
-}
-.r-6026j {
-    background-color: rgba(255,255,255,0.85);
-}
-.navbarborder{
-    background-color: rgb(29, 155, 240);
-}
-.navbarcolor{
-    color: rgb(83, 100, 113);
-}
-.iconcolor{
-    color:rgba(29,155,240,1.00)!important;
 }
